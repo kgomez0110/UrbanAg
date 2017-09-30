@@ -1,0 +1,50 @@
+.redOutline{
+	border-color: #FF0000;
+	border-width: 5px;
+	border-style: solid;
+}
+.blueOutline{
+	border-color: #0000FF;
+	border-width:5px;
+	border-style: dotted;
+}
+
+.noMargin{
+	margin: 0px;
+	padding: 0px;
+}
+
+.banner{
+	height: 30px;
+}
+.container{
+	display: flex;
+}
+.col-1{
+	width: 100%;
+}
+
+.col-2{
+	width: 50%;
+}
+
+.col-3{
+	width: 33%;
+}
+
+.middle{
+	position: absolute;
+	bottom: 50%;
+	
+}
+.wrap{
+	flex-wrap: wrap;
+}
+
+.splash{
+	background-color: #FFFFFF;
+	position: absolute;
+	top:50px;
+	bottom: 0px;
+}
+
