@@ -68,6 +68,16 @@
 	font-family:verdana;
 	font-size:120%;
 }
+.hideText {
+	display:none";
+}
+.buttonAlign {
+	display: flex;
+	justify-content: center;
+}
+.tab {
+	text-indent: 50px;
+}
 
 /*.flower_footer{
 	background-image: url("flower_row.png");
