@@ -1,0 +1,34 @@
+h1 {
+	font-style: normal;
+	font-size: 30px;
+	font-family: 'Proxima Nova', Georgia, sans-serif;
+	text-align: center;
+	color: #C8C8C8;
+}
+
+.pageTitle {
+	font-size: 45px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.row {
+	margin-left: -15px;
+	margin-right: -15px;
+}
+
+.box {
+	width: 25%;
+	min-width: 200px;
+	max-width: 400px;
+	min-height: 400px;
+	padding-right: 50px;
+	padding-left: 50px;
+	float: left;
+}
+
+.silverOutline {
+	border-color: #C8C8C8;
+	border-width: 6px;
+	border-style: solid;
+}
