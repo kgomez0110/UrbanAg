@@ -42,7 +42,7 @@
 .middle{
 	position: absolute;
 	bottom: 50%;
-	
+
 }
 .height_full{
 	height: 50vh;
@@ -79,14 +79,6 @@
 	text-indent: 50px;
 }
 
-/*.flower_footer{
-	background-image: url("flower_row.png");
-	background-size: 100% 160px;
-	width: 100%;
-	height: 160p;x
-	position: absolute;
-	bottom: 0px;
-	background-repeat: repeat-x;
-
-}*/
-
+.noTopMargin{
+	margin-top: 30px;
+}
