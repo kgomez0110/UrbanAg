@@ -3,10 +3,32 @@
 	border-width: 5px;
 	border-style: solid;
 }
+.blueOutline2{
+	border-color: #005ef7;
+	border-width: 10px;
+	border-style: ridge;
+	border-radius: 5px;
+}
+.blueOutline3{
+	border-color: #00ff4c;
+	border-width: 10px;
+	border-style: ridge;
+	border-radius: 5px;
+}
 .blueOutline{
 	border-color: #0000FF;
-	border-width:5px;
+	border-width: 5px;
 	border-style: dotted;
+}
+.blueOutline4{
+	border-color: #005ef7;
+	border-width: 3px;
+	border-style: solid;
+}
+.blueOutline5{
+	border-color: #00ff4c;
+	border-width: 3px;
+	border-style: solid;
 }
 
 .noMargin{
@@ -66,10 +88,10 @@
 }
 .font{
 	font-family:verdana;
-	font-size:120%;
+	font-size:140%;
 }
 .hideText {
-	display:none";
+	display:"none";
 }
 .buttonAlign {
 	display: flex;
