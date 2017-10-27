@@ -6,6 +6,23 @@ h1 {
 	color: #C8C8C8;
 }
 
+h2 {
+	font-style: normal;
+	font-size: 30px;
+	font-family: 'Proxima Nova', Georgia, sans-serif;
+	text-align: center;
+	color: #101010;
+	margin-top: 12%;
+}
+
+p {
+	font-style: normal;
+	font-size: 15px;
+	font-family: 'Proxima Nova', Georgia, sans-serif;
+	text-align: center;
+	color: #101010;
+}
+
 .pageTitle {
 	font-size: 45px;
 	margin-top: 30px;
@@ -13,18 +30,24 @@ h1 {
 }
 
 .row {
+	width: 100%;
 	margin-left: -15px;
 	margin-right: -15px;
 }
 
-.box {
-	width: 25%;
+.infobox {
+	width: 24%;
 	min-width: 200px;
-	max-width: 400px;
+	max-width: 500px;
 	min-height: 400px;
-	padding-right: 50px;
-	padding-left: 50px;
+	margin-right: 5px;
+	margin-left: 5px;
 	float: left;
+	background-color: rgba(255, 255, 255, .7);
+}
+
+.infoboxtext {
+	margin-top: 25%
 }
 
 .silverOutline {
