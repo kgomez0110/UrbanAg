@@ -69,7 +69,7 @@
 	font-size:120%;
 }
 .hideText {
-	display:none";
+	display:"none";
 }
 .buttonAlign {
 	display: flex;
