@@ -54,82 +54,88 @@
       </div>
     </nav>
 
-    <div class="container col-1">
-      <div class="col-8 wrap">
-        <section class="content bgcolor-1">
-            <span class="input input--haruki">
-              <input class="input__field input__field--haruki" type="text" id="input-1" />
-              <label class="input__label input__label--haruki" for="input-1">
-                <span class="input__label-content input__label-content--haruki">Recipe Name</span>
-              </label>
-            </span>
-          </section>
-
+    <form action="program.php" method="post">
+      <div class="container col-1">
+        <div class="col-8 wrap">
           <section class="content bgcolor-1">
-            <span class="input input--haruki noTopMargin">
-              <input class="input__field input__field--haruki" type="text" id="input-1" />
-              <label class="input__label input__label--haruki" for="input-1">
-                <span class="input__label-content input__label-content--haruki">Min Temperature</span>
-              </label>
-            </span>
-            <span class="input input--haruki noTopMargin">
-              <input class="input__field input__field--haruki" type="text" id="input-1" />
-              <label class="input__label input__label--haruki" for="input-1">
-                <span class="input__label-content input__label-content--haruki">Max Temperature</span>
-              </label>
-            </span>
-            </section>
-
-            <section class="content bgcolor-1">
-              <span class="input input--haruki noTopMargin">
-                <input class="input__field input__field--haruki" type="text" id="input-1" />
+              <span class="input input--haruki">
+                <input class="input__field input__field--haruki" type="text" id="name" />
                 <label class="input__label input__label--haruki" for="input-1">
-                  <span class="input__label-content input__label-content--haruki">Min ph</span>
-                </label>
-              </span>
-              <span class="input input--haruki noTopMargin">
-                <input class="input__field input__field--haruki" type="text" id="input-1" />
-                <label class="input__label input__label--haruki" for="input-1">
-                  <span class="input__label-content input__label-content--haruki">Max ph</span>
+                  <span class="input__label-content input__label-content--haruki">Recipe Name</span>
                 </label>
               </span>
             </section>
 
             <section class="content bgcolor-1">
               <span class="input input--haruki noTopMargin">
-                <input class="input__field input__field--haruki" type="text" id="input-1" />
+                <input class="input__field input__field--haruki" type="text" id="minTemp" />
                 <label class="input__label input__label--haruki" for="input-1">
-                  <span class="input__label-content input__label-content--haruki">Min humidity</span>
+                  <span class="input__label-content input__label-content--haruki">Min Temperature</span>
                 </label>
               </span>
               <span class="input input--haruki noTopMargin">
-                <input class="input__field input__field--haruki" type="text" id="input-1" />
+                <input class="input__field input__field--haruki" type="text" id="maxTemp" />
                 <label class="input__label input__label--haruki" for="input-1">
-                  <span class="input__label-content input__label-content--haruki">Max humidity</span>
+                  <span class="input__label-content input__label-content--haruki">Max Temperature</span>
                 </label>
               </span>
-            </section>
+              </section>
 
-             <section class="content bgcolor-1">
-              <span class="input input--haruki noTopMargin">
-                <input class="input__field input__field--haruki" type="text" id="input-1" />
-                <label class="input__label input__label--haruki" for="input-1">
-                  <span class="input__label-content input__label-content--haruki">Min light intensity<span>
-                </label>
-              </span>
-              <span class="input input--haruki noTopMargin">
-                <input class="input__field input__field--haruki" type="text" id="input-1" />
-                <label class="input__label input__label--haruki" for="input-1">
-                  <span class="input__label-content input__label-content--haruki">Max light intensity</span>
-                </label>
-              </span>
-            </section>
-           </div>
+              <section class="content bgcolor-1">
+                <span class="input input--haruki noTopMargin">
+                  <input class="input__field input__field--haruki" type="text" id="minPh" />
+                  <label class="input__label input__label--haruki" for="input-1">
+                    <span class="input__label-content input__label-content--haruki">Min ph</span>
+                  </label>
+                </span>
+                <span class="input input--haruki noTopMargin">
+                  <input class="input__field input__field--haruki" type="text" id="maxPh" />
+                  <label class="input__label input__label--haruki" for="input-1">
+                    <span class="input__label-content input__label-content--haruki">Max ph</span>
+                  </label>
+                </span>
+              </section>
+
+              <section class="content bgcolor-1">
+                <span class="input input--haruki noTopMargin">
+                  <input class="input__field input__field--haruki" type="text" id="minHumidity" />
+                  <label class="input__label input__label--haruki" for="input-1">
+                    <span class="input__label-content input__label-content--haruki">Min humidity</span>
+                  </label>
+                </span>
+                <span class="input input--haruki noTopMargin">
+                  <input class="input__field input__field--haruki" type="text" id="maxHumidity" />
+                  <label class="input__label input__label--haruki" for="input-1">
+                    <span class="input__label-content input__label-content--haruki">Max humidity</span>
+                  </label>
+                </span>
+              </section>
+
+               <section class="content bgcolor-1">
+                <span class="input input--haruki noTopMargin">
+                  <input class="input__field input__field--haruki" type="text" id="minLight" />
+                  <label class="input__label input__label--haruki" for="input-1">
+                    <span class="input__label-content input__label-content--haruki">Min light intensity<span>
+                  </label>
+                </span>
+                <span class="input input--haruki noTopMargin">
+                  <input class="input__field input__field--haruki" type="text" id="maxLight" />
+                  <label class="input__label input__label--haruki" for="input-1">
+                    <span class="input__label-content input__label-content--haruki">Max light intensity</span>
+                  </label>
+                </span>
+              </section>
+              </form>
+              <input type="submit" id="submitButton" value="Submit" class="btn btn-info" style:"margin-left: 50px;"/>
+             </div>
+
+
 
            <div class="redOutline col-40 wrap">
             <p>description</p>
           </div>
         </div>
+
     <script src="js/classie.js"></script>
     <script>
       (function() {
