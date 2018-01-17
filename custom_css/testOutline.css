@@ -31,6 +31,12 @@
 	border-width: 3px;
 	border-style: solid;
 }
+.simple {
+	border: 1px solid #000000;
+	padding: 5px;
+	border-width: 6px;
+	background-color: #EFEECB;
+}
 .noMargin{
 	margin: 0px;
 	padding: 0px;
@@ -159,4 +165,9 @@ pre .val {color: #e6db74;} /* value */
 	box-shadow: 0 0 0 1px #7fccde inset,
 				0 0 0 2px rgba(255,255,255,0.15) inset,
 				0 0 0 1px rgba(0,0,0,0.4);
+}
+.grad-blue {
+	background: #00C9FF;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
