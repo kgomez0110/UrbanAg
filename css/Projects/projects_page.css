@@ -23,7 +23,7 @@ p {
 	color: #101010;
 }
 
-.parallax {
+.parallax1 {
     /* The image used */
     background-image: url(./sexy_seeds_background.jpg);
 
@@ -35,12 +35,16 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    /* Trying to add more cushion on the top and bottom */
+    padding-bottom: 100px;
 }
 
 .pageTitle {
 	font-size: 45px;
-	margin-top: 30px;
-	margin-bottom: 50px;
+	margin-top: 0px;
+	margin-bottom: 25px;
+	padding-top: 25px;
 }
 
 .row {
