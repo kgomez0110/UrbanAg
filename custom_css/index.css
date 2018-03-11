@@ -1,0 +1,55 @@
+
+.landing{
+  position: relative;
+  height: 700px;
+  width: 100%;
+  margin: 0px;
+  left: 0px;
+  top: 0px;
+  background-image: url(../img/launchdark.jpg);
+  background-size: contain;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-style: light;
+}
+
+.title{
+  position: relative;
+  color: white;
+  text-align: center;
+  top: 30%;
+}
+
+.center{
+  text-align: center;
+}
+
+.red{
+  border-style: dotted;
+  border-color: red;
+}
+
+.good_gray{
+  background-color: #efefef;
+}
+
+.retreat_pic{
+  height: 100%;
+  width: 100%;
+}
+
+.stick{
+  /* position:absolute;
+  bottom: 0px; */
+  margin-top: 60px;
+  height: 200px;
+  width: 100%;
+  background-color: black;
+}
+
+.navyy{
+  background-color: black;
+  color: black;
+}
