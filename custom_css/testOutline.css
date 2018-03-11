@@ -34,7 +34,13 @@
 .simple {
 	border: 1px solid #000000;
 	padding: 5px;
-	border-width: 6px;
+	border-width: 50px, 4px, 2px, 4px;
+	background-color: #EFEECB;
+}
+.simpleslim {
+	border: 1px solid #000000;
+	padding: 5px;
+	border-width: 2px, 4px, 2px, 4px;
 	background-color: #EFEECB;
 }
 .noMargin{
@@ -47,6 +53,9 @@
 	background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.white {
+	background: #ffffff;
+}
 .btn-primary{
 	background-color: #558C89;
 }
@@ -110,6 +119,12 @@
 	font-family:verdana;
 	font-size:140%;
 	color: #ffffff;
+}
+
+.font2{
+	font-family:verdana;
+	font-size:120%;
+	color: #000000;
 }
 .hideText {
 	display:"none";
