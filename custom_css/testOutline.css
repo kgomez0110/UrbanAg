@@ -117,7 +117,7 @@
 }
 .font{
 	font-family: 'Arbutus Slab', serif;
-	font-size:160%;
+	font-size:200%;
 	color: #ffffff;
 	text-shadow: 2px 2px 0px #000000;
 }
@@ -192,4 +192,16 @@ pre .val {color: #e6db74;} /* value */
 	background: #00C9FF;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.tran-button {
+	background: none;
+	border: none;
+	transition-duration: 0.4s;
+}
+
+.tran-button:hover {
+	background: none;
+	border: none;
+	text-shadow: 5px 5px 6px #000000;
 }
